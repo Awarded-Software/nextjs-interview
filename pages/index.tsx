@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import React from "react";
 
-const inter = Inter({ subsets: ['latin'] })
+/*
+ * TODO: Implement a NextJS page to display all candidates and make awarding decisions
+ */
 
 export default function Home() {
   return (
     <h1>Implement me!</h1>
   )
-}
+};
+
